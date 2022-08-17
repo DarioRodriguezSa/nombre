@@ -1,0 +1,339 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #d4ccca ;
+}
+#principal{
+    
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    width: 95%;
+    margin: 0 auto;
+   font-size: 16px;
+}
+#contacto{
+    color: #851E18;
+}
+
+#logo1{
+    height: 100px;
+    width:  300px;
+    float: center;
+    border-radius: 20px;  
+}
+header{
+    text-align: center;
+    font-size: 40px;
+    margin-top: 25px;
+    padding: 20px;
+    padding-left: 0px;
+}
+nav {
+    background-color: #c2c2c2;
+    text-align: center;
+    padding: 15px;
+    font-weight: bold;
+    font-size: 30px; 
+}
+
+nav > ul{
+    list-style: none;
+    
+}
+nav >ul>li{
+    display: inline;
+    padding: 25px;
+    position: relative;
+}
+
+
+
+nav >ul>li::before{
+  content: "";
+  height: 3px;
+  width: 0%;
+  background: #a59988;
+  position: absolute;
+  left: 0;
+  top: 65px;
+  transition: 0.4s ease-out;    
+}
+nav >ul>li:hover:before{
+width: 100%;
+}
+
+
+
+
+
+nav >ul>li>a{
+    display: inline;
+    padding: 25px;
+    text-decoration: none;
+    color: black;
+}
+
+section{
+    width: 65%;
+    height: 800px;
+    float:right;
+  
+}
+#imagen1{
+    height: 120px;
+    width: 120px;
+    float: right;
+    }  
+#imagen2{
+    height: 120px;
+    width: 120px;
+    float: right; 
+ }  
+aside{
+    width: 35%;
+    height: 800px;
+    float: left;  
+}
+aside> ul{
+    padding-left: 60px;
+
+
+}
+#noticia1{
+    height: 90px;
+    width: 90px;
+    float: left;
+    border-radius: 20px;
+ }  
+#noticia2{
+    height: 90px;
+    width: 90px;
+    float: left;
+    border-radius: 20px;
+ }
+#noticia3{
+    height: 90px;
+    width: 90px;
+    float: left;
+    border-radius: 20px;
+}
+#vi,#mi{
+    color: #031944;
+    font-weight: bold;
+    font-size:30px;
+}
+footer{
+    width: 100%;
+    height: 150px;  
+    text-align: center;
+    padding-left: 20px;
+
+}
+#logo2{
+    height: 90px;
+    width: 100px;
+    float: right;
+    padding-right: 38px;
+    }  
+#logo3{
+     height: 90px;
+     width: 100px;
+     float: left;
+}     
+article{
+    padding-left: 20px;
+    height: 200px;
+}
+#con{
+    float: left;
+    height: 100%;
+    width: 48%; 
+}
+#con >a {
+    text-decoration: none;
+    color: black;
+}
+#ubi{
+    float: right;
+    width: 47%;
+    height: 100%;   
+}
+#ub{
+    height: 40px;
+    width:  40px;
+    float: left;
+   
+}
+#icons{
+    padding-left: 15px;
+}
+#info{
+    float: left;
+}
+#info1{
+    float: left;
+}
+#tinte,#mecha, #corte, #pestanas,#ceja,#cera,#peina,#maquilla{
+    float: left;
+}
+
+#ima,#ima1,#ima2{
+    height: 110px;
+    width: 110px;
+}
+
+#ubi>ul{
+    padding-left: 60px;  
+ }
+ #domi{
+    height: 60px;
+    width: 60px;
+ }
+ 
+
+
+
+
+
+ @media (max-width : 1300px){
+    nav >ul>li{
+        display: inline;
+        position: relative;
+        padding: 0;
+       font-size: 25px;
+    }
+    section{
+        width: 55%;
+        height: 850px;
+        text-align: center;
+       }
+       
+        section #ubi{
+         width:46%;
+         height: 900px;        
+        }
+        section #ubi ul{
+            list-style: none;
+           }
+        section #con{
+            width: 45%;
+            height: 850px;
+           }
+    aside{
+            width: 43%;
+            height: 850px;
+    }
+    #ima,#ima1,#ima2{
+        height: 60px;
+        width: 60px;
+    }
+    #info, #info1{
+        height: 30px;
+        width: 30px;
+    }
+ }
+
+
+
+
+ @media (max-width : 950px){
+    nav >ul>li{
+        display: inline;
+        position: relative;
+        padding: 0;
+       font-size: 20px;
+    }
+ #ima,#ima1,#ima2{
+    height: 50px;
+    width: 50px;
+ }
+section{
+    width: 55%;
+    height: 1100px;
+    text-align: center;
+   }
+   
+    section #ubi{
+     width:43%;
+     height: 1000px;
+    
+    }
+    section #ubi ul{
+        list-style: none;
+       }
+    section #con{
+        width: 44%;
+        height: 930px;
+
+       }
+aside{
+        width: 43%;
+        height: 1100px;
+}
+#ima,#ima1,#ima2{
+    height: 60px;
+    width: 60px;
+}
+ 
+#tinte,#mecha, #corte, #pestanas,#ceja,#cera,#peina,#maquilla{
+    display: block;
+}
+    #info, #info1{
+        height: 30px;
+        width: 30px;
+    }
+ }
+
+
+
+
+
+@media (max-width : 600px){
+    nav ul li{
+        padding-top: 20px;
+        text-align: center;
+        display: block;
+    }
+    #logo1{
+        height: 140px;
+        width:  280px;
+        float: center;
+        border-radius: 20px;
+        }
+  h2{
+    text-align: center;
+  }
+   section{
+    width: 100%;
+    height: 1700px;
+    text-align: center;
+   }
+   
+    section #ubi{
+     width: 100%;
+     height: 680px;
+     display: block;
+    }
+    section #ubi ul{
+        list-style: none;
+       }
+    section #con{
+        width: 100%;
+        display: block;
+        height: 750px;
+       }
+aside{
+        width: 100%;
+        height: 800px;
+}
+  #logo3,#logo2{
+    padding-top: 10px;
+    height: 60px;
+    width: 80px;
+} 
+    #ima,#ima1,#ima2{
+        height: 40px;
+        width: 40px;
+    }
+}

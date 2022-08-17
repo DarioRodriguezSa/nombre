@@ -1,0 +1,287 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #d4ccca ;
+}
+
+#principal{
+    
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    width: 95%;
+    margin: 0 auto;
+   font-size: 16px;
+}
+
+#contacto{
+    color: #851E18;
+}
+
+#logo1{
+    height: 100px;
+    width:  300px;
+    float: center;
+    border-radius: 20px;
+    
+}
+header{
+    text-align: center;
+    font-size: 40px;
+    margin-top: 25px;
+    padding: 20px;
+    padding-left: 0px;
+}
+
+
+nav {
+    background-color: #c2c2c2;
+    text-align: center;
+    padding: 15px;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+nav > ul{
+    list-style: none;
+    
+}
+
+
+nav >ul>li{
+    display: inline;
+    padding: 25px;
+    position: relative;
+
+}
+nav >ul>li::before{
+  content: "";
+  height: 3px;
+  width: 0%;
+  background: #a59988;
+  position: absolute;
+  left: 0;
+  top: 65px;
+  transition: 0.4s ease-out;    
+}
+nav >ul>li:hover:before{
+width: 100%;
+}
+
+nav >ul>li>a{
+    display: inline;
+    padding: 25px;
+    text-decoration: none;
+    color: black;
+}
+
+section{
+    width: 60%;
+    height: 500px;
+    float:right;
+}
+#imagen1{
+    height: 120px;
+    width: 120px;
+    float: right;
+    }  
+#imagen2{
+    height: 120px;
+    width: 120px;
+    float: right;
+ }  
+aside{
+    width: 40%;
+    height: 500px;
+    text-align: center;
+    float: left;
+}
+aside> ul{
+    list-style: none;
+}
+
+
+#noticia1{
+    height: 90px;
+    width: 90px;
+    float: left;
+    border-radius: 20px;
+ }  
+#noticia2{
+    height: 90px;
+    width: 90px;
+    float: left;
+    border-radius: 20px;
+ }
+#noticia3{
+    height: 90px;
+    width: 90px;
+    float: left;
+    border-radius: 20px;
+}
+ 
+#vi,#mi{
+    color: #031944;
+    font-weight: bold;
+    font-size:30px;
+}
+ 
+
+footer{
+    width: 100%;
+    height: 150px;  
+    text-align: center;
+    padding-left: 20px;
+
+}
+#logo2{
+    height: 90px;
+    width: 100px;
+    float: right;
+    padding-right: 38px;
+    }  
+#logo3{
+     height: 90px;
+     width: 100px;
+     float: left;
+}     
+article{
+    padding-left: 20px;
+    height: 200px;
+}
+#con{
+    float: left;
+    width: 40%;
+    
+   
+}
+#con >a {
+    text-decoration: none;
+    color: black;
+}
+#ubi{
+    float: right;
+    width: 50%;
+    
+}
+#ub{
+    height: 40px;
+    width:  40px;
+    float: left;
+    
+}
+#amor,#justi,#hones{
+    display: block;
+    padding-left: 50px;
+}
+
+@media (max-width : 1300px){
+    section{
+        height: 600px;
+    } 
+    aside{
+        height: 600px;
+
+    }
+}
+
+@media (max-width : 990px){
+    nav >ul>li{
+        display: inline;
+        position: relative;
+        padding: 0;
+       font-size: 25px;
+    }
+    #logo1{
+        height: 140px;
+        width:  280px;
+        float: center;
+        border-radius: 20px;
+        }
+  h2{
+    text-align: center;
+  }
+   section{
+    width: 100%;
+    height: 1000px;
+    text-align: center;
+   }
+   
+    section #ubi{
+     width: 100%;
+     height: 500px;
+     display: block;
+    }
+    section #ubi ul{
+        list-style: none;
+       }
+    section #con{
+        width: 100%;
+        display: block;
+        height: 500px;
+       }
+aside{
+        width: 100%;
+        height: 420px;
+}
+  #logo3,#logo2{
+    padding-top: 10px;
+    height: 60px;
+    width: 80px;
+} 
+#amor,#justi,#hones{
+    display: block;
+    margin-left: 38%;
+    margin-right: 38%;
+}
+}
+
+@media (max-width : 600px){
+    nav ul li{
+        padding-top: 20px;
+        text-align: center;
+        display: block;
+    }
+    #logo1{
+        height: 140px;
+        width:  280px;
+        float: center;
+        border-radius: 20px;
+        }
+  h2{
+    text-align: center;
+  }
+   section{
+    width: 100%;
+    height: 1000px;
+    text-align: center;
+   }
+   
+    section #ubi{
+     width: 100%;
+     height: 500px;
+     display: block;
+    }
+    section #ubi ul{
+        list-style: none;
+       }
+    section #con{
+        width: 100%;
+        display: block;
+        height: 500px;
+       }
+aside{
+        width: 100%;
+        height: 420px;
+}
+  #logo3,#logo2{
+    padding-top: 10px;
+    height: 60px;
+    width: 80px;
+} 
+#amor,#justi,#hones{
+    display: block;
+    margin-left: 26%;
+    margin-right: 26%;
+}
+}
